@@ -1,29 +1,21 @@
+[bmscriptsbox]
+
 [bmscriptsbox.info]
-id = "c1826ca3-0acc-4d4c-8b85-32b9d1408c65"              
-name = "快捷方式箭头"                                    
-desc = "Windows快捷方式箭头去除/恢复工具脚本、通过不忙脚本盒子右键,快捷键可实现便捷执行脚本"                                  
-version = "0.1.0"                                        
+id = "c1826ca3-0acc-4d4c-8b85-32b9d1408c65"
+name = "快捷方式箭头管理"
+desc = "Windows 快捷方式箭头去除/恢复工具，搭配不忙脚本盒子可通过右键菜单或快捷键快速执行"
+version = "1.0.0"
 
 [bmscriptsbox.runtime]
 language = "bat"
-language_version = ">=0.0.0"                  
-entry = "ShortcutArrowManager.bat"                   
-terminal = "never"                       
+language_version = ">=0.0.0"
+entry = "ShortcutArrowManager.bat"
+terminal = "always"
 
 [bmscriptsbox.triggers.context_menu]
 enabled = true
 targets = ["background"]
 
-
 [bmscriptsbox.triggers.shortcut]
 enabled = true
 input_type = ""
-
-
-
-
- 
-
-
-
-
